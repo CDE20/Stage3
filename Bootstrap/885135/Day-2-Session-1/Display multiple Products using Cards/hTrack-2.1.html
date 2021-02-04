@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <style>
+        .material-icons#star-rate{
+            font-size: 13px;
+            vertical-align: middle;
+           }
+        .text-muted{
+            font-size: 13px;
+        }
+        .material-icons#new-release{
+            font-size: 20px;
+            vertical-align: middle;
+            color: darkred;
+        }
+        .material-icons#shopping-cart{
+            font-size: 15px;
+        }
+        .material-icons#favorite{
+            color: gray;
+            vertical-align: middle;
+            float: right;
+        }
+        .material-icons#favorite:hover {
+            color: red !important;
+            cursor: grab;
+        }
+    </style>
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="navbar-brand">
+            hTrack
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#">Product</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Goals</a></li>
+        </ul>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <br><h2>Products</h2>
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="card" style="width:25">
+                    <img class="card-img-top" src="https://images.unsplash.com/photo-1526947425960-945c6e72858f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">Coco Oil(200g) <span class="badge badge-success">4.4 <i class="material-icons" id="star-rate">star_rate</i></span></h4>
+                        <p class="card-text">Rs. 200.00 <span class="text-muted"><s>Rs.250.00</s> 20% </span><i class="material-icons" id="new-release">new_releases</i></p>
+                        <p class="card-text">Escape is an innovative, skin-loving formulation, formulated with certified Fair Trade Cold Pressed Organic Coconut Oil, produced sustainably in the Pacific islands and supporting local communities.</p>
+                        <a href="#" class="btn btn-primary" role="button"><i class="material-icons" id="shopping-cart">shopping_cart</i> Add to Cart</a><i class="material-icons" id="favorite">favorite_border</i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card">
+                    <img class="card-img-top" src="https://images.unsplash.com/photo-1519735777090-ec97162dc266?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=815&q=80" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">Mad about Waves(300 ml) <span class="badge badge-warning">3.5 <i class="material-icons" id="star-rate">star_rate</i></span></h4>
+                        <p class="card-text">Rs. 320.00 <span class="text-muted"><s>Rs.400.00</s> 20% </span><i class="material-icons" id="new-release">new_releases</i></p>
+                        <p class="card-text">Mad About Waves is an innovative, skin-loving formulation, formulated with certified Fair Trade Cold Pressed Organic Coconut Oil, produced sustainably in the Pacific islands and supporting local communities.</p>
+                        <a href="#" class="btn btn-primary" role="button"><i class="material-icons" id="shopping-cart">shopping_cart</i> Add to Cart</a><i class="material-icons" id="favorite">favorite_border</i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card">
+                    <img class="card-img-top" src="https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">Mavi Moistures(Bamboo Fibers Shampoo 305ml) <span class="badge badge-warning">3.7 <i class="material-icons" id="star-rate">star_rate</i></span></h4>
+                        <p class="card-text">Rs. 300.00 <span class="text-muted"><s>Rs.210.00</s> 30% </span><i class="material-icons" id="new-release">new_releases</i></p>
+                        <p class="card-text">Mavi Moistures is an innovative, skin-loving formulation, formulated with certified Fair Trade Cold Pressed Organic Coconut Oil, produced sustainably in the Pacific islands and supporting local communities.</p>
+                        <a href="#" class="btn btn-primary" role="button"><i class="material-icons" id="shopping-cart">shopping_cart</i> Add to Cart</a><i class="material-icons" id="favorite">favorite_border</i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card">
+                    <img class="card-img-top" src="data:image/jpeg;base64,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" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">BattleGreek Coffee (200g) <span class="badge badge-danger">2.5 <i class="material-icons" id="star-rate">star_rate</i></span></h4>
+                        <p class="card-text">Rs. 150.00 <span class="text-muted"><s>Rs. 300.00</s> 50% </span><i class="material-icons" id="new-release">new_releases</i></p>
+                        <p class="card-text">BattleGreek Coffee is an innovative, skin-loving formulation, formulated with certified Fair Trade Cold Pressed Organic Coconut Oil, produced sustainably in the Pacific islands and supporting local communities.</p>
+                        <a href="#" class="btn btn-primary" role="button"><i class="material-icons" id="shopping-cart">shopping_cart</i> Add to Cart</a><i class="material-icons" id="favorite">favorite_border</i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="card">
+                    <img class="card-img-top" src="data:image/jpeg;base64,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" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">Lapis Facial Oil (100ml) <span class="badge badge-success">4.4 <i class="material-icons" id="star-rate">star_rate</i></span></h4>
+                        <p class="card-text">Rs. 750.00 <span class="text-muted"><s>Rs. 900.00</s> 20% </span><i class="material-icons" id="new-release">new_releases</i></p>
+                        <p class="card-text">Lapis Facial Oil is an innovative, skin-loving formulation, formulated with certified Fair Trade Cold Pressed Organic Coconut Oil, produced sustainably in the Pacific islands and supporting local communities.</p>
+                        <a href="#" class="btn btn-primary" role="button"><i class="material-icons" id="shopping-cart">shopping_cart</i> Add to Cart</a><i class="material-icons" id="favorite">favorite_border</i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
