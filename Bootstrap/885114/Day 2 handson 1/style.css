@@ -1,0 +1,40 @@
+.green-rating {
+    background-color: rgb(15, 167, 15);
+    border-radius: 10%;
+    font-size: 0.8em;
+    color: #fff;
+    padding: 2%;
+    line-height: 2;
+}
+
+.orange-rating {
+    background-color: rgb(240, 93, 35);
+    border-radius: 10%;
+    font-size: 0.8em;
+    color: #fff;
+    padding: 2%;
+    line-height: 2;}
+
+.icons {
+    position: relative;
+    top: 5px;
+}
+
+.small-icon {
+    position: relative;
+    top: 4px;
+    font-size: 1em;
+}
+.red {
+    color: rgb(219, 33, 33);
+}
+
+.heart {
+    position: relative;
+    top: 10px;
+    margin-left: 20px;
+}
+
+.heart:hover {
+    color: red;
+}

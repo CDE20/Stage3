@@ -1,0 +1,14 @@
+body {
+}
+
+nav, .left, .right {
+    padding: 1.8rem;
+}
+
+.left {
+    background-color: rgb(216, 252, 247);
+}
+
+.right {
+    background-color: rgb(240, 215, 250);
+}

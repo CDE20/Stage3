@@ -1,0 +1,33 @@
+
+
+.left, .right {
+    padding: 1.7rem;
+}
+
+.left {
+    background-color: rgb(216, 252, 247);
+}
+
+.right {
+    background-color: rgb(240, 215, 250);
+}
+
+.material-icons {
+    vertical-align: middle;
+}
+
+.icon-size {
+    font-size: 1.1em;
+}
+
+.list-group-heading {
+    color: rgb(0, 140, 255);
+}
+
+.container {
+    margin-top: 3%;
+}
+
+.calendar-icon-size {
+    font-size: 0.9em;
+}
