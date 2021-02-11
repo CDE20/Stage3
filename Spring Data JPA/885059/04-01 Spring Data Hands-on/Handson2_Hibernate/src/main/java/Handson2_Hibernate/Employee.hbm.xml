@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 9 Feb, 2021 12:02:14 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="Handson2_Hibernate.Employee" table="EMPLOYEE">
+        <id name="id" type="int">
+            <column name="ID" />
+            <generator class="assigned" />
+        </id>
+        <property name="firstName" type="java.lang.String">
+            <column name="FIRST_NAME" />
+        </property>
+        <property name="lastName" type="java.lang.String">
+            <column name="LAST_NAME" />
+        </property>
+        <property name="salary" type="int">
+            <column name="SALARY" />
+        </property>
+    </class>
+</hibernate-mapping>
